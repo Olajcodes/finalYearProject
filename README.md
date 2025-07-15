@@ -1,4 +1,4 @@
-# 📄 Abstractive Summarization of Software Requirements Specifications (SRS)
+# 📄 Performance Evaluation of Abstraction Agents on Software Requirements Specifications (SRS) Summarization 
 
 ## 🧠 Abstract
 The complexity and verbosity of Software Requirements Specification (SRS) documents pose a major challenge to stakeholders. While essential for guiding system design and implementation, these documents are often hard to digest quickly, resulting in miscommunication and project delays.
@@ -20,10 +20,38 @@ The study proposes a hybrid summarization approach: leveraging generative AI for
 - OpenAI API (for ChatGPT)
 - Gemini API (Google)
 - Microsoft Copilot API
-- scikit-learn
 - matplotlib / seaborn
 - NLTK / spaCy
 - Pandas, NumPy
 
 ## 📂 Project Structure
 
+finalYearCode/
+│
+├── datasets/
+│   ├── IBM_DOORS/
+│   │   ├── ChatGPT.txt
+│   │   ├── Copilot.txt
+│   │   ├── Gemini.txt
+│   │   ├── Domain-expert.txt
+│   │   ├── LDA_summary.pdf
+│   │   ├── Original.docx
+│   │   └── IBM_summary.txt
+│   │
+│   ├── Mendeley/
+│       ├── ChatGPT.txt
+│       ├── Copilot.txt
+│       ├── Gemini.txt
+│       ├── Domain-expert.txt
+│       ├── LDA_summary.pdf
+│       ├── Original.xlsx
+│       └── Mendeley_summary.txt
+│
+│── confusion_matrix_ibm.py           # From `confusion_matrix.py`
+│── confusion_matrix_mendeley.py      # From `mendeley_confusion.py`
+│── cosine_similarity_single.py       # From `cosineSimilarity.py`
+│── NER.py                            # From `NER.py`
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
