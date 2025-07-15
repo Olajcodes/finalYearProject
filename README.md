@@ -39,19 +39,34 @@ finalYearCode/
 │   │   └── IBM_summary.txt
 │   │
 │   ├── Mendeley/
-│       ├── ChatGPT.txt
-│       ├── Copilot.txt
-│       ├── Gemini.txt
-│       ├── Domain-expert.txt
-│       ├── LDA_summary.pdf
-│       ├── Original.xlsx
-│       └── Mendeley_summary.txt
+│   │   ├── ChatGPT.txt
+│   │   ├── Copilot.txt
+│   │   ├── Gemini.txt
+│   │   ├── Domain-expert.txt
+│   │   ├── LDA_summary.pdf
+│   │   ├── Original.xlsx
+│   │   └── Mendeley_summary.txt
 │
-│── confusion_matrix_ibm.py           # From `confusion_matrix.py`
-│── confusion_matrix_mendeley.py      # From `mendeley_confusion.py`
-│── cosine_similarity_single.py       # From `cosineSimilarity.py`
-│── NER.py                            # From `NER.py`
+├── scripts/
+│   ├── confusion_matrix_ibm.py           # From confusion_matrix.py
+│   ├── confusion_matrix_mendeley.py      # From mendeley_confusion.py
+│   ├── cosine_similarity_single.py       # From cosineSimilarity.py
+│   ├── NER.py                            # From NER.py
+│
+├── results/
+│   ├── IBM_cosine_similarity_matrix.png
+│   ├── Mendeley_cosine_similarity_matrix.png
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+## 👤 Author
+Abioye Olajide Abdullateef
+Computer Science Graduate
+Federal University of Agriculture, Abeokuta
+
+## ## Supervisor
+Mr. T.O OLALEYE
+Computer Science Lecturer
+Federal University of Agriculture, Abeokuta
