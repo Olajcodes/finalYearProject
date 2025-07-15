@@ -1,0 +1,36 @@
+Functional Requirements
+Language Support
+Functional requirements related to supporting multiple languages such as English and Dutch within the application.
+User Interface
+Covers requirements on UI elements like layout, icons, interface behavior, adherence to platform design guidelines, and visual consistency.
+Navigation and Access
+Includes requirements on how users navigate the application, access features, and interact with app launchers and menus.
+System Integration
+Describes how different parts of the system or external applications should be integrated and interact with each other.
+Data Management
+Refers to how the system should handle data storage, retrieval, updates, backups, and other data-related operations.
+Security and Privacy
+Requirements that specify how user data should be protected, access restrictions enforced, and privacy maintained.
+Performance
+Deals with the speed, responsiveness, and efficiency of the system under different conditions.
+Platform Compatibility
+Specifies that the system should work across specific platforms and devices like Android or iOS.
+Non-Functional Requirements
+Language Support
+General expectations for multilingual support to ensure accessibility for users with different language preferences.
+User Interface
+High-level guidelines for design aesthetics, usability, and visual standards that must be met.
+
+Navigation and Access
+Describes expectations for smooth and intuitive access and transitions between different app sections.
+System Integration
+Specifies seamless operation and communication between modules or integrated systems.
+Data Management
+Covers expectations for data consistency, availability, and integrity.
+Security and Privacy
+Defines rules for securing the system, protecting sensitive data, and managing user permissions.
+Performance
+Describes expectations for fast load times, system responsiveness, and resource efficiency.
+Platform Compatibility
+Specifies non-functional goals related to running the app on multiple platforms and devices reliably.
+

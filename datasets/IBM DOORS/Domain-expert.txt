@@ -1,0 +1,44 @@
+Functional Requirements
+Project Initialization and Configuration
+Users can create new RMF projects or convert existing DOORS projects.
+
+Projects use a configurable data model with reusable templates and module types.
+Module Management
+Users can create, tag, and synchronize RMF modules based on templates like UR (User Requirements), SR (System Requirements), IVV (Integration/Verification/Validation), etc.
+Document and Database View
+The tool allows switching between document-style and database-style views for the same module.
+Traceability and Linking
+Enables creation of traceability links (e.g. “satisfies”, “verifies”) between different module types to ensure requirement relationships.
+Requirement Analysis
+Provides views for analysis like key requirement list, risk analysis, and compliance matrices.
+Risk and Key Requirements Management
+Users can tag critical and key requirements using specific attributes and analyze them using visual tools.
+Issues and Decisions Tracking
+Users can track issues and decisions through IDJ modules linked to relevant requirements.
+IVV Management
+Requirements must be linked to at least one test procedure (Validation, Verification, or Integration).
+Each test procedure includes attributes like method, responsible person, event, and approval level.
+Integrity Checking
+Includes tools to check data consistency and rule compliance at project and module levels.
+Users can define and run custom integrity rules using DXL scripting.
+Exchange and Document Generation
+Supports Word-based documentation generation and controlled data import/export.
+Non-Functional Requirements
+Scalability and Customization
+The data model is adaptable for small and large projects and can be modified over time.
+Multiple modules of the same type can exist within a single project.
+Access Control
+The “Config” folder and critical project areas must be protected by access rights to prevent accidental changes.
+Performance and Usability
+Tools like Explorer and default linkset pairing improve navigation and minimize user errors.
+Visual indicators and matrix views help users quickly understand requirement relationships.
+Maintainability
+Predefined templates and rule libraries simplify project maintenance and evolution.
+Modular structure allows independent updates and customization of parts of the system.
+Traceability and Consistency
+All changes and links must align with the predefined RMF data model for consistency.
+System highlights misaligned or broken links and provides tools to fix them.
+Audit and History
+Integrity checks generate reports and log files that can be stored for future reference.
+PUID (Project Unique Identifier) ensures stable and unique identification of requirements.
+
