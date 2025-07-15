@@ -1,0 +1,30 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# API Keys or secrets
+*.env
+api_keys.txt
+
+# Data files
+*.xlsx
+*.docx
+*.pdf
+*.txt
+
+# Results/outputs
+*.png
+*.csv
